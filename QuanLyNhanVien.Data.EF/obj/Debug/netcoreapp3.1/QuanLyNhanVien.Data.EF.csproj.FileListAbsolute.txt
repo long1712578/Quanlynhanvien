@@ -1,0 +1,15 @@
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.dll
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.csprojAssemblyReference.cache
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.AssemblyInfoInputs.cache
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.AssemblyInfo.cs
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.deps.json
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.runtimeconfig.json
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.runtimeconfig.dev.json
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.dll
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.pdb
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.pdb
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.csproj.CoreCompileInputs.cache
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.csproj.CopyComplete
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.dll
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.pdb
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Data.EF\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.genruntimeconfig.cache

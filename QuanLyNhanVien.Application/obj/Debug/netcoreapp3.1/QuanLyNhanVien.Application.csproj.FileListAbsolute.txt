@@ -1,0 +1,14 @@
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Application.deps.json
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Application.dll
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Application.pdb
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.dll
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.dll
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.EF.pdb
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\bin\Debug\netcoreapp3.1\QuanLyNhanVien.Data.pdb
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Application.csprojAssemblyReference.cache
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Application.AssemblyInfoInputs.cache
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Application.AssemblyInfo.cs
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Application.csproj.CoreCompileInputs.cache
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Application.csproj.CopyComplete
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Application.dll
+C:\Users\TMT\source\repos\QuanLyNhanVien\QuanLyNhanVien.Application\obj\Debug\netcoreapp3.1\QuanLyNhanVien.Application.pdb

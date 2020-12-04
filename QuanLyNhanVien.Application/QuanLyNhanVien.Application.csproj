@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModel\Student\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuanLyNhanVien.Data.EF\QuanLyNhanVien.Data.EF.csproj" />
+    <ProjectReference Include="..\QuanLyNhanVien.Data\QuanLyNhanVien.Data.csproj" />
+  </ItemGroup>
+
+</Project>
