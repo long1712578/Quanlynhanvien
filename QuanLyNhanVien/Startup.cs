@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using QuanLyNhanVien.Application.AutoMapper;
 using QuanLyNhanVien.Application.Implements;
 using QuanLyNhanVien.Application.Interfaces;
 using QuanLyNhanVien.Data.EF;
@@ -28,16 +30,36 @@ namespace QuanLyNhanVien
         }
 
         public IConfiguration Configuration { get; }
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DbStudentContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("StudentDatabase")));
+            //AutoMapper
+            services.AddAutoMapper(typeof(Startup));
+            services.AddSingleton<AutoMapper.IConfigurationProvider>(AutoMapperConfig.RegisterMappings());
+            services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
             //DI
             services.AddTransient<IStudentServices, StudentServices>();
             services.AddTransient<IStudentRepository, StudentRepository>();
-            services.AddControllersWithViews();
+            //services.AddControllersWithViews();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200")
+                                          .AllowCredentials()
+                                          .AllowAnyHeader()
+                                          .AllowAnyMethod();
+                                  });
+            });
+
+            services.AddControllers().AddNewtonsoftJson(options =>
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                    );
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student TMT", Version = "v1" });
@@ -60,6 +82,7 @@ namespace QuanLyNhanVien
             });
 
             app.UseRouting();
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
